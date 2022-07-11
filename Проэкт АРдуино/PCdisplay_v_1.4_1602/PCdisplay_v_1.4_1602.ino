@@ -1,6 +1,4 @@
 /*
-  Модифицировано под дисплей 1602 klykov.net vk.com/ms262 instagram.com/klykovnet
-
   Блок электроники для крутого моддинга вашего ПК, возможности:
   - Вывод основных параметров железа на внешний LCD дисплей
   - Температура: CPU, GPU, материнская плата, самый горячий HDD
@@ -14,20 +12,6 @@
   - Управление RGB светодиодной лентой
   - Управление цветом пропорционально температуре (синий - зелёный - жёлтый - красный)
   - Ручное управление цветом из интерфейса программы
-
-  Программа HardwareMonitorPlus  https://github.com/AlexGyver/PCdisplay
-  - Запустить OpenHardwareMonitor.exe
-  - Options/Serial/Run - запуск соединения с Ардуиной
-  - Options/Serial/Config - настройка параметров работы
-    - PORT address - адрес порта, куда подключена Ардуина
-    - TEMP source - источник показаний температуры (процессор, видеокарта, максимум проц+видео, датчик 1, датчик 2)
-    - FAN min, FAN max - минимальные и максимальные обороты вентиляторов, в %
-    - TEMP min, TEMP max - минимальная и максимальная температура, в градусах Цельсия
-    - Manual FAN - ручное управление скоростью вентилятора в %
-    - Manual COLOR - ручное управление цветом ленты
-    - LED brightness - управление яркостью ленты
-    - CHART interval - интервал обновления графиков
-
    Что идёт в порт: 0-CPU temp, 1-GPU temp, 2-mother temp, 3-max HDD temp, 4-CPU load, 5-GPU load, 6-RAM use, 7-GPU memory use,
    8-maxFAN, 9-minFAN, 10-maxTEMP, 11-minTEMP, 12-manualFAN, 13-manualCOLOR, 14-fanCtrl, 15-colorCtrl, 16-brightCtrl, 17-LOGinterval, 18-tempSource
 */
